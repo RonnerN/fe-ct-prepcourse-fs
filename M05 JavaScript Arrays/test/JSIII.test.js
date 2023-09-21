@@ -128,8 +128,8 @@ describe('JAVASCRIPT III', function () {
 
    describe('numeroMasGrande(arrayOfNums)', function () {
       it('Debe retornar el número más grande del arreglo', function () {
-         expect(numeroMasGrande([10, 10, 16, 12])).toBe(16);
-         expect(numeroMasGrande([97, 100, 80, 55, 72, 94])).toBe(100);
+         expect(numeroMasGrande([ 10, 16, 12])).toBe(16);
+         expect(numeroMasGrande([97, 100, 80, 55, 72, 94, 10])).toBe(100);
          expect(numeroMasGrande([97, 10000, 80, 55, 7.2, -94])).toBe(10000);
       });
    });
